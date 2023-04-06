@@ -6,9 +6,9 @@ function Sidebar({togglebar,mobile}) {
     // let head = document.getElementById('head').clientHeight
      
   return (
-      <div className={`md:h-[80vh] w-[70px] bg-white md:w-[200px]  sidebar`} style={ mobile?{ marginTop: '160px' , paddingTop:'30px'}:{ paddingTop:'30px'}}>
+      <div className={`md:h-[80vh] w-[70px]    md:w-[200px]  sidebar`} style={ mobile?{ marginTop: '160px' , paddingTop:'30px'}:{ paddingTop:'30px'}}>
           <div className='container mb-3'>
-              <div className='row  border-top border-bottom'>
+              <div className='row  border-top border-bottom '>
                   <section className='col-md-3 col-12  p-2 d-flex flex-column gap-4'>
                       <div className='col-12 justify-center flex md:justify-end'>
                           <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" className='cursor-pointer' fill="gold" class="bi bi-house" viewBox="0 0 16 16">
@@ -87,6 +87,7 @@ function Sidebar({togglebar,mobile}) {
                       <div className='col-12'>
                           <span>Footing</span>
                       </div>
+ 
                   </section>:<> </>}
                   
               </div>
